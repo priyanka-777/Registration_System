@@ -13,8 +13,8 @@
 
     //pass
     $pass = "";
-	$conn=mysqli_connect("localhost","root","","auth-sys");
-    //$conn = new PDO("mysql:host=$host;dbname=$dbname;", $user, $pass);
+	//$conn=mysqli_connect("localhost","root","","auth-sys");
+    $conn = new PDO("mysql:host=$host;dbname=$dbname;", $user, $pass);
     
     // if($conn == true) {
     //     echo "it's working fine";
